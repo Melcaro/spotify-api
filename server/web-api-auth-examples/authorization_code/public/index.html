@@ -104,7 +104,7 @@
 
             $.ajax({
                 url: 'https://api.spotify.com/v1/me',
-                headers: {
+                headers: { // à mettre dans tous les call API 
                   'Authorization': 'Bearer ' + access_token
                 },
                 success: function(response) {
