@@ -17,7 +17,6 @@ var client_id = process.env.CLIENT_ID; // Your client id
 var client_secret = process.env.CLIENT_SECRET; // Your secret
 var redirect_uri = 'REDIRECT_URI'; // Your redirect uri localhost:5000
 
-console.log('toto', client_id);
 /**
  * Generates a random string containing numbers and letters
  * @param  {number} length The length of the string
