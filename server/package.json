@@ -21,7 +21,7 @@
     "start:dev": "ts-node-dev --respawn --no-notify index.ts "
   },
   "devDependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "http": "^0.0.1-security",
     "tslint": "^6.1.2",
     "tslint-config-prettier": "^1.18.0",
